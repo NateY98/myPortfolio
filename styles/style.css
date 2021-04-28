@@ -246,11 +246,19 @@ html {
           box-sizing: inherit;
 }
 
-* {
-  color: white;
+*,
+h1,
+h2,
+h3,
+h4 {
   padding: 0;
   margin: 0;
+}
+
+* {
+  color: white;
   font-family: "Exo 2", sans-serif;
+  font-size: 125%;
 }
 
 .sr-only {
@@ -286,9 +294,34 @@ section {
   padding-bottom: 40px;
 }
 
+p,
+a {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #e0674e;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
 header {
   height: 100vh;
   background-color: #2a2a2a;
+}
+
+header h2 {
+  text-align: left;
+  color: #a3a3a3;
 }
 
 .logoContainer {
@@ -298,6 +331,10 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.secondP {
+  padding-top: 30px;
 }
 
 .about {
@@ -325,6 +362,13 @@ header {
   background-color: #e0674e;
 }
 
+.contact h2 {
+  color: white;
+}
+
 footer {
   background-color: #2a2a2a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
 }

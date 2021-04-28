@@ -3,9 +3,18 @@ header {
   background-color: #2a2a2a;
 }
 
+header h2 {
+  text-align: left;
+  color: #a3a3a3;
+}
+
 .logoContainer {
   display: flex;
   justify-content: center;
+}
+
+.secondP {
+  padding-top: 30px;
 }
 
 // .logo path:nth-child(1) {
