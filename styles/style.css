@@ -361,8 +361,12 @@ header h2 {
   padding-bottom: 50px;
 }
 
+.aboutImg {
+  width: 50%;
+}
+
 .about img {
-  width: 40%;
+  width: 100%;
 }
 
 .aboutImgTxt {
@@ -467,6 +471,21 @@ header h2 {
 .contact h2 {
   color: white;
   padding-bottom: 50px;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact ul li a {
+  padding: 20px;
+  font-size: 1.5rem;
 }
 
 footer {
