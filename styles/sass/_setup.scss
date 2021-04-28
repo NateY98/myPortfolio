@@ -200,6 +200,13 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -211,4 +218,21 @@ html {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+ul {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }

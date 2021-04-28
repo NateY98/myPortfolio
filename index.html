@@ -21,124 +21,165 @@
   <body>
     <!-- Header and landing -->
     <header>
-      <h3>Nate Yeow</h3>
-      <h1>A Web Developer</h1>
+      <div class="wrapper">
+        <div>
+          <h2>Nate Yeow</h2>
+          <h1>Font-End Developer</h1>
+        </div>
+        <i class="fas fa-chevron-down"></i>
+      </div>
     </header>
 
     <!-- Main section -->
     <main>
       <!-- About me section -->
-      <section>
-        <img src="" alt="" />
-        <div>
-          <h2>About Me</h2>
-          <p>
-            Hi I'm Nate, a Front-End Web Developer based out of Oakville and a
-            recent graduate of Juno College of Technology. Additionally, I have
-            a Honors Bachelor of Arts from the University of Toronto and a
-            certificate of digital communications from Sheridan College. As an
-            individual that loves to learn, I am always challenging myself to
-            stay on top of new tools and web-development content. When it comes
-            to development and design, my goal is to create applications that
-            are responsive, accessible, creative and minimalistic.
-          </p>
-          <p>
-            Aside from coding, I enjoy watching and playing sports, playing
-            video games, traveling, and photography.
-          </p>
+      <section class="about">
+        <div class="wrapper">
+          <img src="" alt="" />
+          <div>
+            <h2>About Me</h2>
+            <p>
+              Hi I'm Nate, a Front-End Web Developer based out of Oakville and a
+              recent graduate of Juno College of Technology. Additionally, I
+              have a Honors Bachelor of Arts from the University of Toronto and
+              a certificate of digital communications from Sheridan College. As
+              an individual that loves to learn, I am always challenging myself
+              to stay on top of new tools and web-development content. When it
+              comes to development and design, my goal is to create applications
+              that are responsive, accessible, creative and minimalistic.
+            </p>
+            <p>
+              Aside from coding, I enjoy watching and playing sports, playing
+              video games, traveling, and photography.
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- Projects section -->
-      <section>
-        <h2>Projects</h2>
-        <div>
-          <img src="" alt="" />
+      <section class="projects">
+        <div class="wrapper">
+          <h2>Projects</h2>
           <div>
-            <h3>Go Fetch</h3>
-            <p>
-              Are you on team dogs? Looking to relax with some GIF's of dogs or
-              curious about a specifc breed? Go Fetch is the app for you. This
-              app fetches a grouping of GIF's from the Giphy API to display for
-              your viewing pleasure. Additionally, users can enter a specific
-              name or select a location to fetch more information about
-              different dogs from the Dog API.
-            </p>
-            <a href="">View app</a> <a href="">View code</a>
-            <h3>Made with</h3>
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-            </ul>
+            <img src="" alt="" />
+            <div>
+              <h3>Go Fetch</h3>
+              <p>
+                Are you on team dogs? Looking to relax with some GIF's of dogs
+                or curious about a specifc breed? Go Fetch is the app for you.
+                This app fetches a grouping of GIF's from the Giphy API to
+                display for your viewing pleasure. Additionally, users can enter
+                a specific name or select a location to fetch more information
+                about different dogs from the Dog API.
+              </p>
+              <a href="">View app</a> <a href="">View code</a>
+              <h3>Made with</h3>
+              <ul class="projectsIcons">
+                <li>
+                  <img src="./assets/inkscapeIcon.svg" alt="Inkscape icon" />
+                </li>
+                <li><img src="./assets/htmlIcon.svg" alt="HTML icon" /></li>
+                <li><img src="./assets/sassIcon.svg" alt="SASS icon" /></li>
+                <li>
+                  <img
+                    src="./assets/javascriptIcon.svg"
+                    alt="Javascript icon"
+                  />
+                </li>
+                <li><img src="./assets/apiIcon.svg" alt="API icon" /></li>
+                <li><img src="./assets/gitIcon.svg" alt="Git icon" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
-          <img src="" alt="" />
           <div>
-            <h3>Pian&sup2;o</h3>
-            <p>
-              I don't play the piano... but you can! Play your favourite song
-              using your keyboard, mouse or finger. Pian&sup2;o allows users to
-              play any song they want as long as they can keep it within one
-              octave. Audio files are saved on Firebase Storage and a specific
-              file is called based on which key is pressed.
-            </p>
-            <a href="">View app</a> <a href="">View code</a>
-            <h3>Made with</h3>
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-            </ul>
+            <img src="" alt="" />
+            <div>
+              <h3>Pian&sup2;o</h3>
+              <p>
+                I don't play the piano... but you can! Play your favourite song
+                using your keyboard, mouse or finger. Pian&sup2;o allows users
+                to play any song they want as long as they can keep it within
+                one octave. Audio files are saved on Firebase Storage and a
+                specific file is called based on which key is pressed.
+              </p>
+              <a href="">View app</a> <a href="">View code</a>
+              <h3>Made with</h3>
+              <ul class="projectsIcons">
+                <li><img src="./assets/reactIcon.svg" alt="React icon" /></li>
+                <li><img src="./assets/cssIcon.svg" alt="CSS icon" /></li>
+                <li>
+                  <img src="./assets/firebaseIcon.svg" alt="Firebase icon" />
+                </li>
+                <li><img src="./assets/gitIcon.svg" alt="Git icon" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
-          <img src="" alt="" />
           <div>
-            <h3>Ask Zoltan</h3>
-            <p>
-              Need advice? Ask Zoltan. A totally unique fortune telling app that
-              totally isn't based off a machine... Part of an agency styled
-              assignment, the objective of this project was to create an app
-              that matched the request of a client. This app allows users to
-              enter a keyword which will return a piece of advice back to them
-              from the Advice Slip API once they have completed solving a maze.
-            </p>
-            <a href="">View app</a> <a href="">View code</a>
-            <h3>Made with</h3>
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-            </ul>
+            <img src="" alt="" />
+            <div>
+              <h3>Ask Zoltan</h3>
+              <p>
+                Need advice? Ask Zoltan. A totally unique fortune telling app
+                that totally isn't based off a machine... Part of an agency
+                styled assignment, the objective of this project was to create
+                an app that matched the request of a client. This app allows
+                users to enter a keyword which will return a piece of advice
+                back to them from the Advice Slip API once they have completed
+                solving a maze.
+              </p>
+              <a href="">View app</a> <a href="">View code</a>
+              <h3>Made with</h3>
+              <ul class="projectsIcons">
+                <li><img src="./assets/figmaIcon.svg" alt="Figma icon" /></li>
+                <li><img src="./assets/reactIcon.svg" alt="React icon" /></li>
+                <li><img src="./assets/cssIcon.svg" alt="CSS icon" /></li>
+                <li><img src="./assets/apiIcon.svg" alt="API icon" /></li>
+                <li>
+                  <img src="./assets/firebaseIcon.svg" alt="Firebase icon" />
+                </li>
+                <li><img src="./assets/gitIcon.svg" alt="Git icon" /></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Skills section -->
-      <section>
-        <h2>Skills</h2>
-        <div class="gridContainer">
-          <i class="fab fa-html5"></i>
-          <i class="fab fa-css3"></i>
-          <i class="fab fa-sass"></i>
-          <i class="fab fa-js-square"></i>
-          <i class="fab fa-react"></i>
-          <i class="fab fa-figma"></i>
-          <i class="fab fa-github-square"></i>
+      <section class="skills">
+        <div class="wrapper">
+          <h2>Skills</h2>
+          <div>
+            <div class="iconGrpOne">
+              <img src="./assets/htmlIcon.svg" alt="HTML icon" />
+              <img src="./assets/cssIcon.svg" alt="CSS icon" />
+              <img src="./assets/javascriptIcon.svg" alt="Javascript icon" />
+              <img src="./assets/sassIcon.svg" alt="SASS icon" />
+              <img src="./assets/reactIcon.svg" alt="React icon" />
+              <img src="./assets/gitIcon.svg" alt="Git icon" />
+            </div>
+            <div class="iconGrpTwo">
+              <img src="./assets/terminalIcon.svg" alt="Terminal icon" />
+              <img src="./assets/inkscapeIcon.svg" alt="Inkscape icon" />
+              <img src="./assets/adobeIcon.svg" alt="Adobe icon" />
+              <img src="./assets/figmaIcon.svg" alt="Figma icon" />
+              <img src="./assets/firebaseIcon.svg" alt="Firebase icon" />
+              <img src="./assets/apiIcon.svg" alt="API icon" />
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- Contact section -->
-      <section>
-        <h2>Contact</h2>
+      <section class="contact">
+        <div class="wrapper">
+          <h2>Contact</h2>
+        </div>
       </section>
     </main>
 
     <!-- Footer section -->
     <footer>
-      <p>Developed by Nate Yeow</p>
+      <p>Copyright &copy; 2021 by Nate Yeow</p>
     </footer>
   </body>
 </html>

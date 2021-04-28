@@ -246,6 +246,13 @@ html {
           box-sizing: inherit;
 }
 
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -258,4 +265,66 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+ul {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header {
+  height: 100vh;
+  background-color: #2a2a2a;
+}
+
+.logoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about {
+  background-color: #282828;
+}
+
+.projects {
+  background-color: #2a2a2a;
+}
+
+.projectsIcons img {
+  width: 25px;
+}
+
+.iconGrpOne img,
+.iconGrpTwo img {
+  width: 100px;
+}
+
+.skills {
+  background-color: #282828;
+}
+
+.contact {
+  background-color: #e0674e;
+}
+
+footer {
+  background-color: #2a2a2a;
 }
