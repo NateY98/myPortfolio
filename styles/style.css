@@ -324,13 +324,14 @@ header h2 {
   color: #a3a3a3;
 }
 
-.logoContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.headerIcon {
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+}
+
+.landingWords {
+  padding-top: 20%;
 }
 
 .secondP {
@@ -341,17 +342,58 @@ header h2 {
   background-color: #282828;
 }
 
+.about img {
+  width: 45%;
+}
+
+.aboutImgTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutTxt {
+  width: 50%;
+  padding-left: 20px;
+}
+
 .projects {
   background-color: #2a2a2a;
 }
 
 .projectsIcons img {
   width: 25px;
+  height: 25px;
 }
 
-.iconGrpOne img,
-.iconGrpTwo img {
+.projects li {
+  line-height: 0;
+  padding: 5px;
+}
+
+.projects li:first-child {
+  padding-left: 0;
+}
+
+.view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.view p {
+  padding-right: 20px;
+}
+
+.icon img {
   width: 100px;
+  margin: 20px 2.5rem;
+}
+
+.icon {
+  text-align: center;
 }
 
 .skills {

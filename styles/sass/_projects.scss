@@ -4,4 +4,24 @@
 
 .projectsIcons img {
   width: 25px;
+  height: 25px;
+}
+
+.projects li {
+  line-height: 0;
+  padding: 5px;
+}
+
+.projects li:first-child {
+  padding-left: 0;
+}
+
+.view {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.view p {
+  padding-right: 20px;
 }

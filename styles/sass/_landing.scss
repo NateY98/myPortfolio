@@ -8,9 +8,14 @@ header h2 {
   color: #a3a3a3;
 }
 
-.logoContainer {
-  display: flex;
-  justify-content: center;
+.headerIcon {
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+}
+
+.landingWords {
+  padding-top: 20%;
 }
 
 .secondP {
