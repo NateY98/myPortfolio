@@ -2,6 +2,10 @@
   background-color: #2a2a2a;
 }
 
+.projects h2 {
+  padding-bottom: 50px;
+}
+
 .projectsIcons img {
   width: 25px;
   height: 25px;
@@ -24,4 +28,23 @@
 
 .view p {
   padding-right: 20px;
+}
+
+.screenShots img {
+  width: 100%;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.projectGrouping {
+  display: flex;
+}
+
+.projectGrouping .odd {
+  margin-left: 50px;
+  order: 1;
+}
+
+.odd img {
+  margin-right: 0;
 }
