@@ -13,7 +13,7 @@
 
 .projects li {
   line-height: 0;
-  padding: 5px;
+  padding: 0 5px;
 }
 
 .projects li:first-child {
@@ -32,19 +32,26 @@
 
 .screenShots img {
   width: 100%;
-  margin-right: 50px;
-  margin-bottom: 20px;
 }
 
 .projectGrouping {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .projectGrouping .odd {
-  margin-left: 50px;
   order: 1;
 }
 
-.odd img {
-  margin-right: 0;
+.projectTxt {
+  padding-left: 40px;
+}
+
+.oddTxt {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.projects p {
+  padding-bottom: 20px;
 }

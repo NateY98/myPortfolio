@@ -249,7 +249,7 @@ section {
 
 p,
 a {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 h2 {
@@ -265,4 +265,17 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #e0674e;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a:hover {
+  color: #e0674e;
+  border-color: white;
 }

@@ -298,7 +298,7 @@ section {
 
 p,
 a {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 h2 {
@@ -314,6 +314,19 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #e0674e;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a:hover {
+  color: #e0674e;
+  border-color: white;
 }
 
 header {
@@ -381,7 +394,7 @@ header h2 {
 
 .projects li {
   line-height: 0;
-  padding: 5px;
+  padding: 0 5px;
 }
 
 .projects li:first-child {
@@ -402,25 +415,32 @@ header h2 {
 
 .screenShots img {
   width: 100%;
-  margin-right: 50px;
-  margin-bottom: 20px;
 }
 
 .projectGrouping {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .projectGrouping .odd {
-  margin-left: 50px;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
 
-.odd img {
-  margin-right: 0;
+.projectTxt {
+  padding-left: 40px;
+}
+
+.oddTxt {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.projects p {
+  padding-bottom: 20px;
 }
 
 .skills h2 {
