@@ -320,13 +320,14 @@ a {
   text-decoration: none;
   color: white;
   border: 1px solid #e0674e;
+  background-color: #e0664e94;
   border-radius: 5px;
   padding: 5px;
 }
 
 a:hover {
   color: #e0674e;
-  border-color: white;
+  background-color: rgba(255, 255, 255, 0.904);
 }
 
 header {
@@ -486,6 +487,11 @@ header h2 {
 .contact ul li a {
   padding: 20px;
   font-size: 1.5rem;
+}
+
+.contact ul li a:hover {
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 footer {
