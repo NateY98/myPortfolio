@@ -27,13 +27,28 @@
   <body>
     <!-- Header and landing -->
     <header>
-      <div class="wrapper landingWords">
-        <div>
+      <div class="wrapper">
+        <div class="hamburger">
+          <div class="barOne"></div>
+          <div class="barTwo"></div>
+          <div class="barThree"></div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="landingWords">
           <h2>Nate Yeow</h2>
           <h1>Front-End Developer</h1>
         </div>
         <div class="headerIcon">
-          <i class="fas fa-chevron-down"></i>
+          <a href="#about">
+            <i class="fas fa-chevron-down"></i>
+          </a>
         </div>
       </div>
     </header>
@@ -41,9 +56,9 @@
     <!-- Main section -->
     <main>
       <!-- About me section -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="wrapper">
-          <h2>About Me</h2>
+          <h2>About</h2>
           <div class="aboutImgTxt">
             <div class="aboutImg">
               <img
@@ -53,10 +68,10 @@
             </div>
             <div class="aboutTxt">
               <p>
-                Hi I'm Nathaniel more commonly known as Nate. I am a Front-End
-                Web Developer based out of Oakville and a recent graduate of
-                Juno College of Technology. I am also a graduate of the
-                University of Toronto and Sheridan College, with an Honours
+                Hi I'm Nathaniel but most people know me as Nate. I am a
+                Front-End Web Developer based out of Oakville and a recent
+                graduate of Juno College of Technology. I am also a graduate of
+                the University of Toronto and Sheridan College, with an Honours
                 Bachelors of Arts and a certificate of digital communications.
                 As an individual that loves to learn, I am always challenging
                 myself to stay on top of new tools and web-development content.
@@ -76,7 +91,7 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="wrapper">
           <h2>Skills</h2>
           <div class="icon">
@@ -118,7 +133,7 @@
       </section>
 
       <!-- Projects section -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="wrapper">
           <h2>Projects</h2>
           <div class="projectGrouping">
@@ -261,7 +276,7 @@
       </section>
 
       <!-- Contact section -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="wrapper">
           <h2>Contact</h2>
           <div>
@@ -295,5 +310,7 @@
     <footer>
       <p>Copyright &copy; 2021 by Nate Yeow</p>
     </footer>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
