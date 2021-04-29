@@ -20,4 +20,21 @@
   .projectsIcons {
     justify-content: center;
   }
+  .hiddenPortImg {
+    display: block;
+  }
+  .aboutImg {
+    display: none;
+  }
+  .aboutTxt {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+  }
+  .aboutLinks {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+  }
 }

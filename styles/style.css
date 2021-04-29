@@ -415,6 +415,7 @@ header a:hover {
 
 .about img {
   width: 100%;
+  display: block;
 }
 
 .aboutImgTxt {
@@ -424,6 +425,10 @@ header a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.hiddenPortImg {
+  display: none;
 }
 
 .aboutTxt {
@@ -603,5 +608,28 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .hiddenPortImg {
+    display: block;
+  }
+  .aboutImg {
+    display: none;
+  }
+  .aboutTxt {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+  }
+  .aboutLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 40px;
   }
 }
