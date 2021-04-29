@@ -29,6 +29,12 @@
   }
 }
 
+@media (max-width: 800px) {
+  .logo {
+    width: 400px;
+  }
+}
+
 @media (max-width: 600px) {
   * {
     font-size: 110%;
@@ -40,14 +46,11 @@
     padding-bottom: 40px;
   }
   .logo {
-    width: 200px;
+    width: 250px;
   }
 }
 
 @media (max-width: 400px) {
-  * {
-    font-size: 100%;
-  }
   .email {
     font-size: 1.2rem;
   }
