@@ -22,6 +22,36 @@ header h2 {
   padding-top: 30px;
 }
 
+header a {
+  background: none;
+  border: none;
+}
+
+header a:hover {
+  background: none;
+}
+
+.headerIcon i {
+  color: #e0674e;
+}
+
+.headerIcon {
+  position: absolute;
+  bottom: 2%;
+  right: 49%;
+  font-size: 2rem;
+  animation: bouncing 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@keyframes bouncing {
+  0% {
+    opacity: 100;
+  }
+  50% {
+    transform: translateY(-1.5rem);
+    opacity: 0;
+  }
+}
 // .logo path:nth-child(1) {
 //   stroke-dasharray: 30px;
 // }
