@@ -56,13 +56,34 @@ header ul {
   padding-top: 30px;
 }
 
+.nav {
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.navContainer {
+  position: fixed;
+  top: -11%;
+  right: 0;
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.651);
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+  z-index: 90;
+}
+
+.showNav {
+  transform: translateY(0);
+}
+
 .hamburger {
-  padding-top: 30px;
   position: fixed;
   right: 5%;
-  font-size: 1.5rem;
-  display: inline-block;
-  cursor: pointer;
+  top: 3%;
   z-index: 99;
 }
 
@@ -88,6 +109,15 @@ header ul {
 .clicked .barThree {
   transform: rotate(45deg) translate(-8px, -8px);
   background-color: #e0674e;
+}
+
+header a {
+  background: none;
+  border: none;
+}
+
+header a:hover {
+  background: none;
 }
 
 .headerIcon i {
