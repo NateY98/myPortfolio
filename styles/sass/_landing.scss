@@ -8,6 +8,40 @@ header h2 {
   color: #e0674e;
 }
 
+header a {
+  background: none;
+  border: none;
+  padding: none;
+}
+
+header a:hover {
+  background: none;
+}
+
+header ul {
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.nav {
+  position: fixed;
+  top: -11%;
+  right: 0;
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.596);
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+  z-index: 90;
+}
+
+.showNav {
+  transform: translateY(0);
+}
+
 .headerIcon {
   position: absolute;
   bottom: 0;
