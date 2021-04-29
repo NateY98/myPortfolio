@@ -1,7 +1,7 @@
 const portfolio = {};
 
 portfolio.hamburger = document.querySelector(".hamburger");
-portfolio.nav = document.querySelector(".nav");
+portfolio.nav = document.querySelector(".navContainer");
 
 portfolio.hamburgerEvent = () => {
   portfolio.hamburger.addEventListener("click", () => {

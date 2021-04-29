@@ -28,6 +28,19 @@
     <!-- Header and landing -->
     <header>
       <div class="wrapper landingWords">
+        <div class="hamburger">
+          <div class="barOne"></div>
+          <div class="barTwo"></div>
+          <div class="barThree"></div>
+        </div>
+        <div class="navContainer">
+          <ul class="nav">
+            <li><a href="#about"> About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
         <div>
           <h2>Nate Yeow</h2>
           <h1>Front-End Developer</h1>
@@ -43,7 +56,7 @@
     <!-- Main section -->
     <main>
       <!-- About me section -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="wrapper">
           <h2>About Me</h2>
           <div class="aboutImgTxt">
@@ -78,7 +91,7 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="wrapper">
           <h2>Skills</h2>
           <div class="icon">
@@ -120,7 +133,7 @@
       </section>
 
       <!-- Projects section -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="wrapper">
           <h2>Projects</h2>
           <div class="projectGrouping">
@@ -263,7 +276,7 @@
       </section>
 
       <!-- Contact section -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="wrapper">
           <h2>Contact</h2>
           <div>
@@ -297,5 +310,7 @@
     <footer>
       <p>Copyright &copy; 2021 by Nate Yeow</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
