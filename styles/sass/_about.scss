@@ -7,15 +7,21 @@
 }
 
 .aboutImg {
-  width: 50%;
+  width: 35%;
 }
 
 .about img {
   width: 100%;
+  display: block;
 }
 
 .aboutImgTxt {
   display: flex;
+  justify-content: center;
+}
+
+.hiddenPortImg {
+  display: none;
 }
 
 .aboutTxt {

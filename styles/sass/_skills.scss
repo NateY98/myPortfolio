@@ -9,8 +9,16 @@
 
 .icon {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .skills {
   background-color: #282828;
+}
+
+.iconGrp {
+  min-width: 16%;
 }

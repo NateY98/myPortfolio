@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+  .projectGrouping {
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #e0664e88;
+  }
+  .projectGrouping .even {
+    order: 0;
+  }
+  .projectTxt {
+    padding: 20px 0 0;
+  }
+  .project h3 {
+    padding-bottom: 15px;
+  }
+  .projectTxt {
+    text-align: center;
+  }
+  .view,
+  .projectsIcons {
+    justify-content: center;
+  }
+  .hiddenPortImg {
+    display: block;
+  }
+  .aboutImg {
+    display: none;
+  }
+  .aboutTxt {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+  }
+  .aboutLinks {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+  }
+}

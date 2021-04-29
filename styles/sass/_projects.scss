@@ -32,6 +32,7 @@
 
 .screenShots img {
   width: 100%;
+  display: block;
 }
 
 .projectGrouping {
@@ -40,7 +41,7 @@
   margin-top: 50px;
 }
 
-.projectGrouping .odd {
+.projectGrouping .even {
   order: 1;
 }
 
@@ -48,9 +49,13 @@
   padding-left: 40px;
 }
 
-.oddTxt {
+.evenTxt {
   padding-left: 0;
   padding-right: 40px;
+}
+
+.evenGroup {
+  margin: 10% 0;
 }
 
 .projects p {
