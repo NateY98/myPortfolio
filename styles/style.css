@@ -277,6 +277,41 @@ header ul {
   background-color: #e0674e;
 }
 
+.headerIcon i {
+  color: #e0674e;
+}
+
+.headerIcon {
+  position: absolute;
+  bottom: 2%;
+  right: 49%;
+  font-size: 2rem;
+  -webkit-animation: bouncing 2s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+          animation: bouncing 2s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@-webkit-keyframes bouncing {
+  0% {
+    opacity: 100;
+  }
+  50% {
+    -webkit-transform: translateY(-1.5rem);
+            transform: translateY(-1.5rem);
+    opacity: 0;
+  }
+}
+
+@keyframes bouncing {
+  0% {
+    opacity: 100;
+  }
+  50% {
+    -webkit-transform: translateY(-1.5rem);
+            transform: translateY(-1.5rem);
+    opacity: 0;
+  }
+}
+
 .about {
   background-color: #282828;
 }
