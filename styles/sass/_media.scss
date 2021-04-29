@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  .projectGrouping {
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #e0664e88;
+  }
+  .projectGrouping .even {
+    order: 0;
+  }
+  .projectTxt {
+    padding: 20px 0 0;
+  }
+  .project h3 {
+    padding-bottom: 15px;
+  }
+  .projectTxt {
+    text-align: center;
+  }
+  .view,
+  .projectsIcons {
+    justify-content: center;
+  }
+}
