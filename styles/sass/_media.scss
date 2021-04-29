@@ -13,13 +13,6 @@
   .project h3 {
     padding-bottom: 15px;
   }
-  .projectTxt {
-    text-align: center;
-  }
-  .view,
-  .projectsIcons {
-    justify-content: center;
-  }
   .hiddenPortImg {
     display: block;
   }
@@ -32,9 +25,33 @@
     padding-left: 0;
   }
   .aboutLinks {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
     padding-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  * {
+    font-size: 110%;
+  }
+  .projects h4 {
+    padding-bottom: 20px;
+  }
+  .email {
+    padding-bottom: 40px;
+  }
+  .logo {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 100%;
+  }
+  .email {
+    font-size: 1.2rem;
+  }
+  .view {
+    flex-direction: column;
   }
 }
