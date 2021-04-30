@@ -155,7 +155,7 @@ a {
 }
 
 a:hover {
-  color: #fff;
+  color: #e0674e;
   background-color: rgba(255, 255, 255, 0.822);
   -webkit-transition: 1s;
   transition: 1s;
