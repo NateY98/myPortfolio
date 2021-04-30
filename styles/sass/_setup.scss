@@ -99,19 +99,6 @@ h4 {
   line-height: 130%;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 ul {
   text-decoration: none;
   display: flex;
@@ -151,9 +138,9 @@ h4 {
 
 a {
   text-decoration: none;
-  color: white;
-  border: 1px solid #e0674e;
-  background-color: #e0664e94;
+  color: $whiteColour;
+  border: 1px solid $orangeColour;
+  background-color: $orangeBg;
   border-radius: 5px;
   padding: 5px;
 }

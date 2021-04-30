@@ -1,9 +1,9 @@
 .contact {
-  background-color: #e0674e;
+  background-color: $orangeColour;
 }
 
 .contact h2 {
-  color: white;
+  color: $whiteColour;
   padding-bottom: 50px;
 }
 
@@ -22,7 +22,7 @@
 
 .contact ul li a:hover {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid $whiteColour;
 }
 
 .email a {
