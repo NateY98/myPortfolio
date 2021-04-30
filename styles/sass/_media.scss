@@ -42,16 +42,20 @@
   .projects h4 {
     padding-bottom: 20px;
   }
-  .email {
+  .email a {
     padding-bottom: 40px;
   }
   .logo {
     width: 250px;
   }
+  .navContainer {
+    top: 0%;
+    height: 183px;
+  }
 }
 
 @media (max-width: 400px) {
-  .email {
+  .email a {
     font-size: 1.2rem;
   }
   .view {
