@@ -443,6 +443,12 @@ header a:hover {
   padding-bottom: 50px;
 }
 
+.wipH3 {
+  padding-bottom: 70px;
+  text-align: center;
+  color: #e0674e;
+}
+
 .projectsIcons img {
   width: 25px;
   height: 25px;
