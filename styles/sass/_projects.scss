@@ -36,14 +36,19 @@
   padding-right: 20px;
 }
 
-.screenShots img {
-  width: 100%;
+.screenShots {
+  width: 50%;
   display: block;
+}
+
+.screenShots img{
+  width: 100%;
 }
 
 .projectGrouping {
   display: flex;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .projectGrouping .even {
@@ -52,6 +57,7 @@
 
 .projectTxt {
   padding-left: 40px;
+  width: 50%;
 }
 
 .evenTxt {

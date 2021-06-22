@@ -475,9 +475,13 @@ header a:hover {
   padding-right: 20px;
 }
 
+.screenShots {
+  width: 50%;
+  display: block;
+}
+
 .screenShots img {
   width: 100%;
-  display: block;
 }
 
 .projectGrouping {
@@ -485,6 +489,7 @@ header a:hover {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .projectGrouping .even {
@@ -495,6 +500,7 @@ header a:hover {
 
 .projectTxt {
   padding-left: 40px;
+  width: 50%;
 }
 
 .evenTxt {
@@ -598,6 +604,10 @@ footer {
   }
   .projectTxt {
     padding: 20px 0 0;
+    width: 100%;
+  }
+  .screenShots {
+    width: 100%;
   }
   .project h3 {
     padding-bottom: 15px;
