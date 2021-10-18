@@ -11,7 +11,7 @@
     padding: 20px 0 0;
     width: 100%;
   }
-  .screenShots{
+  .screenShots {
     width: 100%;
   }
   .project h3 {
@@ -37,6 +37,9 @@
   .logo {
     width: 400px;
   }
+  h1 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -55,6 +58,9 @@
   .navContainer {
     top: 0%;
     height: 183px;
+  }
+  h1 {
+    font-size: 0.8rem;
   }
 }
 

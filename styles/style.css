@@ -166,6 +166,15 @@ header {
   background-color: #2a2a2a;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h1,
+.animatedName {
+  text-align: center;
+}
+
 header h2 {
   text-align: left;
   color: #e0674e;
@@ -646,6 +655,9 @@ footer {
   .logo {
     width: 400px;
   }
+  h1 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -664,6 +676,9 @@ footer {
   .navContainer {
     top: 0%;
     height: 183px;
+  }
+  h1 {
+    font-size: 0.8rem;
   }
 }
 
