@@ -612,6 +612,9 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .logo {
+    width: 700px;
+  }
   .projectGrouping {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -654,6 +657,7 @@ footer {
 @media (max-width: 800px) {
   .logo {
     width: 400px;
+    height: 80px;
   }
   h1 {
     font-size: 1rem;
@@ -672,6 +676,7 @@ footer {
   }
   .logo {
     width: 250px;
+    height: 50px;
   }
   .navContainer {
     top: 0%;
