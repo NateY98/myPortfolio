@@ -458,6 +458,10 @@ header a:hover {
       align-self: center;
 }
 
+.about img {
+  border-radius: 20px;
+}
+
 .projects {
   background-color: #2a2a2a;
 }
@@ -537,6 +541,10 @@ header a:hover {
 
 .projects p {
   padding-bottom: 20px;
+}
+
+.projects img {
+  border-radius: 20px;
 }
 
 .skills h2 {
@@ -622,6 +630,7 @@ footer {
             flex-direction: column;
     padding: 20px;
     border: 1px solid #e0664e94;
+    border-radius: 20px;
   }
   .projectGrouping .even {
     -webkit-box-ordinal-group: 1;
