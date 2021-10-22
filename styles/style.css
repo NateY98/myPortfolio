@@ -548,6 +548,10 @@ header a:hover {
   border-radius: 20px;
 }
 
+video {
+  border-radius: 8%;
+}
+
 .skills h2 {
   padding-bottom: 50px;
 }
