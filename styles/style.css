@@ -459,9 +459,8 @@ header a:hover {
   border-radius: 20px;
 }
 
-.secondP,
-.hashtags {
-  padding-top: 30px;
+.secondP {
+  padding-top: 20px;
 }
 
 .aboutLinks {
